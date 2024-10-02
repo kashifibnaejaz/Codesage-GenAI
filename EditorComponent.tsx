@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import { ModeToggleBtn } from "./mode-toggle-btn";
 import SelectLanguages, { selectedLanguageOptionProps } from "./SelectLanguages";
-import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
+import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/ui/resizable";
 import Editor from "@monaco-editor/react";
 import { useTheme } from "next-themes";
 import { Button } from "./ui/button";
