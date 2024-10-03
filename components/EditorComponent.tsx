@@ -11,7 +11,7 @@ import { codeSnippets, languageOptions } from "@/config/config";
 import { compileCode } from "@/actions/compile";
 import toast from "react-hot-toast";
 //import { toast } from 'react-toastify';
-//import { toast } from "react-toastify";
+
 import ChatbotComponent from "./Chatbot"; // Import the Chatbot component
 import SelectionSort from "./SelectionSort";
 import assert from "assert";
@@ -56,7 +56,7 @@ export default function EditorComponent() {
     setSourceCode(codeSnippets[value.language]);
   }
   
-  const extractErrorLine = (output) => {
+  const extractErrorLine = ( output: string | string[]) => {
     // Ensure the output is a string, join if it's an array
     const outputString = Array.isArray(output) ? output.join("\n") : output;
 
@@ -102,7 +102,11 @@ export default function EditorComponent() {
   };
   */
 // Styled component for the toast message
-const ToastMessage = ({ message }) => (
+
+interface ToastMessageProps {
+  message: string;
+}
+const ToastMessage = ({ message  } : ToastMessageProps) => (
   <div className={`p-4 rounded-lg max-w-full whitespace-pre-wrap shadow-md 
       ${message.toLowerCase().includes("failed") 
         ? "bg-red-100 text-red-600 border-l-4 border-red-500" 
@@ -115,7 +119,7 @@ const ToastMessage = ({ message }) => (
 );
 
 // Function to show toast messages
-const showToast = (outputs) => {
+const showToast = (outputs : string[]) => {
   const message = outputs.join("\n");
   const hasFailed = message.toLowerCase().includes("failed");
 
