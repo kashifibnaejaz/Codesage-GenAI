@@ -48,7 +48,7 @@ export default function SelectionSort() {
       {/* Example section */}
       <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg shadow">
         <h3 className="text-md font-bold text-gray-800 dark:text-gray-200">Example 1:</h3>
-        <p className="text-gray-700 dark:text-gray-300 mt-2">Input: <span className="font-mono">N = 5, arr[] = {4, 1, 3, 9, 7}</span></p>
+        <p className="text-gray-700 dark:text-gray-300 mt-2">Input: <span className="font-mono">N = 5, arr[] = &#123;4, 1, 3, 9, 7&#125;</span></p>
         <p className="text-gray-700 dark:text-gray-300 mt-2">Output: <span className="font-mono">1, 3, 4, 7, 9</span></p>
         <p className="text-gray-700 dark:text-gray-300 mt-2">Explanation:</p>
         <ul className="text-gray-600 dark:text-gray-400 ml-6 list-disc">
@@ -62,7 +62,7 @@ export default function SelectionSort() {
 
       <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg shadow">
         <h3 className="text-md font-bold text-gray-800 dark:text-gray-200">Example 2:</h3>
-        <p className="text-gray-700 dark:text-gray-300 mt-2">Input: <span className="font-mono">N = 10, arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}</span></p>
+        <p className="text-gray-700 dark:text-gray-300 mt-2">Input: <span className="font-mono">N = 10, arr[] =  &#123;10, 9, 8, 7, 6, 5, 4, 3, 2, 1 &#125;</span></p>
         <p className="text-gray-700 dark:text-gray-300 mt-2">Output: <span className="font-mono">1, 2, 3, 4, 5, 6, 7, 8, 9, 10</span></p>
       </div>
 
