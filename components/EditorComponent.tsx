@@ -15,7 +15,9 @@ import toast from "react-hot-toast";
 import ChatbotComponent from "./Chatbot"; // Import the Chatbot component
 import SelectionSort from "./SelectionSort";
 import assert from "assert";
-
+export interface CodeSnippetsProps {
+  [key: string]: string;
+}
 // Test cases to check the user's code
 /*const testCases = [
   { input: [[2, 7, 11, 15], 9], expected: [0, 1] },
