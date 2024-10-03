@@ -318,7 +318,7 @@ If you find any errors, logical flaws, or areas for improvement, respond with 'f
         {/* Loading state */}
         {isLoading && (
           <p className="text-center mt-4 text-indigo-600 dark:text-indigo-400">
-            Let's make learning code enjoyable!
+            Lets make learning code enjoyable!
           </p>
         )}
  
