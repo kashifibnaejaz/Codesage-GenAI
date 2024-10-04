@@ -1,3 +1,7 @@
+**Project Overview for Resume:**
+
+**CodeSage** – A GenAI-powered teaching assistant that uses the **Socratic method** to help students learn **Data Structures and Algorithms**, particularly **sorting algorithms**, through dynamic questioning. The assistant encourages critical thinking by guiding students to discover solutions on their own, rather than providing direct answers. It supports **multiple coding languages** and provides personalized feedback via text and voice. CodeSage aims to make scalable, personalized learning accessible for both school students and advanced learners, with future opportunities to expand into broader programming topics and personalized learning paths.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
